@@ -1,0 +1,19 @@
+{
+  "name": "api-randm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elderbilheri/rickandmorty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elderbilheri/rickandmorty/issues"
+  },
+  "homepage": "https://github.com/elderbilheri/rickandmorty#readme"
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/modal.css">
+</head>
+
+<body>
+  <div class="container">
+    <table id="tabela">
+      <caption>
+        <h1>API do Rick and Morty</h1>
+      </caption>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Espécie</th>
+        <th>Sexo</th>
+        <th>Imagem</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="/script.js"></script>
+
+  <section class="modal-container modal-hide">
+    <div class="modal-conteudo">
+      <div class="modal-cabecalho">
+        <h1 id="modal-titulo">Informações do Personagem</h1>
+      </div>
+      <div class="modal-dados">
+        <div class="modal-texto">
+          <p class="modal-parag">ID: <span class="modal-span" id="id-modal">Aqui vai o ID</span></p>
+          <p class="modal-parag">NOME: <span class="modal-span" id="nome-modal">Aqui vai o Nome</span></p>
+          <p class="modal-parag">ESPÉCIE: <span class="modal-span" id="especie-modal">Aqui vai a Espécie</span></p>
+          <p class="modal-parag">SEXO: <span class="modal-span" id="sexo-modal">Aqui vai o Sexo</span></p>
+        </div>
+        <img id="img-personagem" src="./img/rick.jpeg" alt="">
+      </div>
+      <div class="modal-botoes">
+        <button id="fechar">Close</button>
+        <button id="imprimir">Imprimir</button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
